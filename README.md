@@ -2,9 +2,11 @@
 
 All of Firefox in a single line.
 
-![What it looks like (using Mercury)](https://i.postimg.cc/jSRnLDVz/image.png)
-![With the bar disabled](https://i.postimg.cc/G3DDJtvT/image.png)
-![With the bar on the bottom](https://i.postimg.cc/TPCs0G5B/image.png)
+| One-line | Disappearing bar | Bottom bar |
+| - | - |-|
+| ![What it looks like (using Mercury)](https://i.postimg.cc/wMFN16fT/image.png)  | ![With the bar disabled](https://i.postimg.cc/G3DDJtvT/image.png) | ![With the bar on the bottom](https://i.postimg.cc/Bv6J3JDB/image.png) |
+
+
 
 ## 🎒 Pre-requisites
 
@@ -32,3 +34,6 @@ git clone https://github.com/gon555551/uchrome chrome
 
 ***
 > Based on [One-line Firefox](https://github.com/khuedoan/one-line-firefox) by [khuedoan](https://github.com/khuedoan).
+
+
+https://youtu.be/8R1_TqU68yo?t=543
