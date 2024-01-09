@@ -1,0 +1,73 @@
+#tracking-protection-icon-container,
+#page-action-buttons,
+#firefox-view-button,
+#alltabs-button,
+#PanelUI-button,
+#identity-box,
+.titlebar-spacer {
+	display: none !important;
+}
+
+#TabsToolbar {
+    margin-left: 25vw !important;
+}
+
+#nav-bar {
+    background: transparent !important;
+    margin-right: 75vw !important;
+    margin-top: -36px !important;
+    padding-top: 8px !important;
+    top: -5px !important;
+}
+
+#urlbar-container {
+    width: auto !important;
+    top: 5px !important;
+}
+
+#urlbar {
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+#urlbar[breakout-extend] {
+    padding-top: 5px !important;
+    width: 75vw !important;
+    top: -5px !important
+}
+
+#navigator-toolbox {
+	border: 0px !important;
+}
+
+
+/**********************************/
+/**       Disappearing Bar       **/
+/**********************************/
+
+/* ⬇️ Comment this to disable ⬇️ */
+#navigator-toolbox {
+    transition: ease all 1s;
+    max-height: 0.01vh;
+    overflow: hidden;
+}
+  
+#navigator-toolbox:hover {
+    max-height: 100vh !important;
+    animation: 0s pop-in;
+}
+
+#navigator-toolbox:focus-within {
+    max-height: 100vh !important;
+    animation: 0s pop-in;
+
+    /* Must be last */
+    animation-fill-mode: both;
+}
+  
+@keyframes pop-in {
+    from {overflow: hidden}
+    to {overflow: unset}
+}
+/* ⬆️ Comment this to disable ⬆️ */
