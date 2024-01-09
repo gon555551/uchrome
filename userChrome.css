@@ -16,13 +16,10 @@
     background: transparent !important;
     margin-right: 75vw !important;
     margin-top: -36px !important;
-    padding-top: 8px !important;
-    top: -5px !important;
 }
 
 #urlbar-container {
     width: auto !important;
-    top: 5px !important;
 }
 
 #urlbar {
@@ -32,9 +29,7 @@
 }
 
 #urlbar[breakout-extend] {
-    padding-top: 5px !important;
     width: 75vw !important;
-    top: -5px !important
 }
 
 #navigator-toolbox {
@@ -66,6 +61,20 @@
     animation-fill-mode: both;
 }
   
+#nav-bar {
+    padding-top: 8px !important;
+    top: -5px !important;
+}
+
+#urlbar-container {
+    top: 5px !important;
+}
+
+#urlbar[breakout-extend] {
+    padding-top: 5px !important;
+    top: -5px !important
+}
+
 @keyframes pop-in {
     from {overflow: hidden}
     to {overflow: unset}
