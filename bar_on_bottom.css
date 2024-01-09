@@ -1,0 +1,33 @@
+/* Adapted from: https://github.com/Arty2/userstyles */
+
+
+#browser {
+    -moz-box-ordinal-group: 0 !important;
+    order: 0 !important;
+}
+
+#navigator-toolbox,
+#navigator-toolbox-background {
+    -moz-box-ordinal-group: 1 !important;
+    order: 1 !important;
+}
+
+*|*:root[sizemode="normal"] #browser {
+    padding-top: 0 !important;
+}
+
+#nav-bar[inFullscreen],
+#TabsToolbar[inFullscreen] {
+    display: none;
+}
+
+*|*:root[sizemode="maximized"] #navigator-toolbox {
+    border-top: 0.01vh solid transparent !important;
+}
+
+#urlbar[open]{
+    flex-direction: column-reverse;
+    display: flex !important;
+    bottom: -2px !important;
+    top: auto !important;
+}

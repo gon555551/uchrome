@@ -4,6 +4,7 @@ All of Firefox in a single line.
 
 ![What it looks like (using Mercury)](https://i.postimg.cc/jSRnLDVz/image.png)
 ![With the bar disabled](https://i.postimg.cc/G3DDJtvT/image.png)
+![With the bar on the bottom](https://i.postimg.cc/TPCs0G5B/image.png)
 
 ## 🎒 Pre-requisites
 
@@ -28,6 +29,6 @@ cd "path/to/firefox/profile"
 git clone https://github.com/gon555551/uchrome chrome
 ```
 
-*When resizing the window, the bar can't be recovered with the mouse. Enter fullscreen mode (F11) and it'll work again.*
+
 ***
 > Based on [One-line Firefox](https://github.com/khuedoan/one-line-firefox) by [khuedoan](https://github.com/khuedoan).
