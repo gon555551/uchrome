@@ -4,7 +4,6 @@ All of Firefox in a single line.
 
 ![What it looks like (using Mercury)](https://i.postimg.cc/jSRnLDVz/image.png)
 ![With the bar disabled](https://i.postimg.cc/G3DDJtvT/image.png)
-git 
 
 ## 🎒 Pre-requisites
 
