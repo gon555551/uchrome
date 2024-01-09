@@ -10,7 +10,7 @@ All of Firefox in a single line.
 
 ## 🎒 Pre-requisites
 
-This [userChrome.css](https://github.com/gon555551/uchrome/blob/master/userChrome.css) file is designed for Firefox with Compact mode enabled. To do this, follow the steps below.
+This [userChrome.css](https://github.com/ilovebmo/uchrome/blob/master/userChrome.css) file is designed for Firefox with Compact mode enabled. To do this, follow the steps below.
 
 1. Visit the `about:config` page;  
 1.1 Search for and set `browser.compactmode.show` to <font color=green>true</font>.  
