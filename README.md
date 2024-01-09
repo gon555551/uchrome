@@ -34,6 +34,3 @@ git clone https://github.com/gon555551/uchrome chrome
 
 ***
 > Based on [One-line Firefox](https://github.com/khuedoan/one-line-firefox) by [khuedoan](https://github.com/khuedoan).
-
-
-https://youtu.be/8R1_TqU68yo?t=543
