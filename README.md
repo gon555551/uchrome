@@ -10,10 +10,10 @@ All of Firefox in a single line.
 
 This [userChrome.css](https://github.com/gon555551/uchrome/blob/master/userChrome.css) file is designed for Firefox with Compact mode enabled. To do this, follow the steps below.
 
-**1.** Visit the `about:config` page;  
-**1.1** Search for and set `browser.compactmode.show` to <font color=green>true</font>.  
-**2.** Right click on the toolbar and select **Customize Toolbar**;  
-**2.2.** Set the density as `Compact`.
+1. Visit the `about:config` page;  
+1.1 Search for and set `browser.compactmode.show` to <font color=green>true</font>.  
+2. Right click on the toolbar and select **Customize Toolbar**;  
+2.2. Set the density as `Compact`.
 
 
 ## 🔧 How to use
