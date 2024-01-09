@@ -36,6 +36,12 @@
     border: 0px !important;
 }
 
+*|*:root[sizemode="normal"] #navigator-toolbox {
+    max-height: 100vh;
+    overflow: visible;
+    transition: none;
+}
+
 
 /**********************************/
 /**       Disappearing Bar       **/
@@ -80,16 +86,11 @@
     to {overflow: unset}
 }
 
-*|*:root[sizemode="normal"] #navigator-toolbox {
-    max-height: 100vh;
-    overflow: visible;
-    transition: none;
-}
-
 
 /**********************************/
 /**          Bottom Bar          **/
 /**********************************/
+/*        Arty2/userstyles        */
 
 /* ⬇️ Comment this to disable ⬇️ */
 #browser {
@@ -101,15 +102,6 @@
 #navigator-toolbox-background {
     -moz-box-ordinal-group: 1 !important;
     order: 1 !important;
-}
-
-*|*:root[sizemode="normal"] #browser {
-    padding-top: 0 !important;
-}
-
-#nav-bar[inFullscreen],
-#TabsToolbar[inFullscreen] {
-    display: none;
 }
 
 *|*:root[sizemode="maximized"] #navigator-toolbox {
