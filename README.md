@@ -3,9 +3,8 @@
 All of Firefox in a single line.
 
 | One-line | Disappearing bar | Bottom bar |
-| - | - |-|
-| ![What it looks like (using Mercury)](https://i.postimg.cc/wMFN16fT/image.png)  | ![With the bar disabled](https://i.postimg.cc/G3DDJtvT/image.png) | ![With the bar on the bottom](https://i.postimg.cc/Bv6J3JDB/image.png) |
-
+| - | - | - |
+| ![What it looks like (using Mercury)](https://i.postimg.cc/wMFN16fT/image.png) | ![With the bar disabled](https://i.postimg.cc/G3DDJtvT/image.png) | ![With the bar on the bottom](https://i.postimg.cc/Bv6J3JDB/image.png) |
 
 
 ## 🎒 Pre-requisites
