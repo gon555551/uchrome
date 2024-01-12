@@ -42,6 +42,11 @@
     transition: none;
 }
 
+*|*:root[sizemode="normal"] #navigator-toolbox .titlebar-buttonbox-container {
+    position: relative;
+    top: 0px !important;
+}
+
 *|*:root[sizemode="maximized"] #navigator-toolbox {
     overflow: visible;
 }
