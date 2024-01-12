@@ -43,7 +43,6 @@
 }
 
 *|*:root[sizemode="maximized"] #navigator-toolbox {
-    border-top: 0.01vh solid transparent !important;
     overflow: visible;
 }
 
@@ -53,23 +52,42 @@
 /**********************************/
 
 /* ⬇️ Comment this to disable ⬇️ */
+#navigator-toolbox .titlebar-buttonbox-container {
+    position: relative;
+    top: -30px !important;
+    transition: ease all 0.1s;
+    transition-delay: 1.4s;
+}
+
+#navigator-toolbox:hover .titlebar-buttonbox-container {
+    top: 0px !important;
+    animation: 0s pop-lox;
+    transition-delay: -1.4s;
+}
+
+#navigator-toolbox:focus-within .titlebar-buttonbox-container {
+    top: 0px !important;
+    animation: 0s pop-lox;
+    transition-delay: -1.4s;
+}
+
 #navigator-toolbox {
-    transition: ease all 1s;
+    transition: ease all 0.5s;
     max-height: 0.01vh;
     overflow: hidden;
+    transition-delay: 1s;
 }
 
 #navigator-toolbox:hover {
     max-height: 100vh !important;
     animation: 0s pop-in;
+    transition-delay: -1s;
 }
 
 #navigator-toolbox:focus-within {
     max-height: 100vh !important;
     animation: 0s pop-in;
-
-    /* Must be last */
-    animation-fill-mode: both;
+    transition-delay: -1s;
 }
 
 #nav-bar {
@@ -89,6 +107,11 @@
 @keyframes pop-in {
     from {overflow: hidden}
     to {overflow: unset}
+}
+
+@keyframes pop-lox {
+    from {top: -30px}
+    to {top: 0px}
 }
 
 *|*:root[sizemode="normal"] #navigator-toolbox {
@@ -120,4 +143,27 @@
     display: flex !important;
     bottom: -2px !important;
     top: auto !important;
+} 
+
+*|*:root[sizemode="maximized"] #navigator-toolbox {
+    border-top: 0.01vh solid transparent !important;
+}
+
+#navigator-toolbox .titlebar-buttonbox-container {
+    position: relative;
+    top: 0px !important;
+    transition: none;
+    transition-delay: none;
+}
+
+#navigator-toolbox:hover .titlebar-buttonbox-container {
+    top: 0px !important;
+    animation: none;
+    transition-delay: none;
+}
+
+#navigator-toolbox:focus-within .titlebar-buttonbox-container {
+    top: 0px !important;
+    animation: none;
+    transition-delay: none;
 }
