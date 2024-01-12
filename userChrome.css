@@ -112,6 +112,7 @@
 
 *|*:root[sizemode="maximized"] #navigator-toolbox {
     border-top: 0.01vh solid transparent !important;
+    overflow: visible;
 }
 
 #urlbar[open]{
