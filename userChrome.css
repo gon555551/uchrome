@@ -36,16 +36,15 @@
     border: 0px !important;
 }
 
-
-/**********************************/
-/**    No Disappear On Resize    **/
-/**********************************/
-
-/* ⬇ Comment this to disable ⬇ */
 *|*:root[sizemode="normal"] #navigator-toolbox {
     max-height: 100vh;
     overflow: visible;
     transition: none;
+}
+
+*|*:root[sizemode="maximized"] #navigator-toolbox {
+    border-top: 0.01vh solid transparent !important;
+    overflow: visible;
 }
 
 
@@ -53,7 +52,7 @@
 /**       Disappearing Bar       **/
 /**********************************/
 
-/* ⬇ Comment this to disable ⬇ */
+/* ⬇️ Comment this to disable ⬇️ */
 #navigator-toolbox {
     transition: ease all 1s;
     max-height: 0.01vh;
@@ -92,13 +91,19 @@
     to {overflow: unset}
 }
 
+*|*:root[sizemode="normal"] #navigator-toolbox {
+    max-height: 100vh;
+    overflow: visible;
+    transition: none;
+}
+
 
 /**********************************/
 /**          Bottom Bar          **/
 /**********************************/
 /*        Arty2/userstyles        */
 
-/* ⬇ Comment this to disable ⬇ */
+/* ⬇️ Comment this to disable ⬇️ */
 #browser {
     -moz-box-ordinal-group: 0 !important;
     order: 0 !important;
@@ -108,11 +113,6 @@
 #navigator-toolbox-background {
     -moz-box-ordinal-group: 1 !important;
     order: 1 !important;
-}
-
-*|*:root[sizemode="maximized"] #navigator-toolbox {
-    border-top: 0.01vh solid transparent !important;
-    overflow: visible;
 }
 
 #urlbar[open]{
