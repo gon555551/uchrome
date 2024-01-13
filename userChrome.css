@@ -8,6 +8,7 @@
     display: none !important;
 }
 
+
 #TabsToolbar {
     margin-left: 25vw !important;
 }
@@ -57,42 +58,38 @@
 /**********************************/
 
 /* ⬇️ Comment this to disable ⬇️ */
-#navigator-toolbox .titlebar-buttonbox-container {
+#titlebar {
     position: relative;
-    top: -30px !important;
-    transition: ease all 0.1s;
-    transition-delay: 1.4s;
+    top: -100vh !important;
+    transition: ease all 0.5s !important;
+    transition-delay: 0.4s !important;
 }
 
-#navigator-toolbox:hover .titlebar-buttonbox-container {
+#navigator-toolbox:hover #titlebar {
+    position: relative !important;
     top: 0px !important;
-    animation: 0s pop-lox;
-    transition-delay: -1.4s;
+    transition-delay: -5s !important;
 }
 
-#navigator-toolbox:focus-within .titlebar-buttonbox-container {
+#navigator-toolbox:focus-within #titlebar {
+    position: relative !important;
+    transition: none !important;
     top: 0px !important;
-    animation: 0s pop-lox;
-    transition-delay: -1.4s;
 }
 
 #navigator-toolbox {
-    transition: ease all 0.5s;
     max-height: 0.01vh;
+    transition: ease all 0.5s !important;
     overflow: hidden;
-    transition-delay: 1s;
+    transition-delay: 0s !important;
 }
 
 #navigator-toolbox:hover {
     max-height: 100vh !important;
-    animation: 0s pop-in;
-    transition-delay: -1s;
 }
 
 #navigator-toolbox:focus-within {
     max-height: 100vh !important;
-    animation: 0s pop-in;
-    transition-delay: -1s;
 }
 
 #nav-bar {
@@ -107,16 +104,6 @@
 #urlbar[breakout-extend] {
     padding-top: 5px !important;
     top: -5px !important
-}
-
-@keyframes pop-in {
-    from {overflow: hidden}
-    to {overflow: unset}
-}
-
-@keyframes pop-lox {
-    from {top: -30px}
-    to {top: 0px}
 }
 
 *|*:root[sizemode="normal"] #navigator-toolbox {
@@ -176,4 +163,19 @@
     top: 0px !important;
     animation: none;
     transition-delay: none;
+}
+
+#titlebar {
+    position: relative;
+    top: 100vh !important;
+}
+
+#navigator-toolbox:hover #titlebar {
+    position: relative !important;
+    top: 0vh !important;
+}
+
+#navigator-toolbox:focus-within #titlebar {
+    position: relative !important;
+    top: 0vh !important;
 }
