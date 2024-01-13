@@ -5,124 +5,122 @@
 #PanelUI-button,
 #identity-box,
 .titlebar-spacer {
-    display: none !important;
+  display: none !important;
 }
 
 #TabsToolbar {
-    margin-left: 25vw !important;
+  margin-left: 25vw !important;
 }
 
 #nav-bar {
-    background: transparent !important;
-    margin-right: 75vw !important;
-    margin-top: -36px !important;
+  background: transparent !important;
+  margin-right: 75vw !important;
+  margin-top: -36px !important;
 }
 
 #urlbar-container {
-    width: auto !important;
+  width: auto !important;
 }
 
 #urlbar {
-    background: transparent !important;
-    box-shadow: none !important;
-    border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
 }
 
 #urlbar[breakout-extend] {
-    width: 75vw !important;
+  width: 75vw !important;
 }
 
 #navigator-toolbox {
-    border: 0px !important;
+  border: 0px !important;
 }
 
 *|*:root[sizemode="normal"] #navigator-toolbox {
-    max-height: 100vh;
-    overflow: visible;
-    transition: none;
+  max-height: 100vh;
+  overflow: visible;
+  transition: none;
 }
 
 *|*:root[sizemode="maximized"] #navigator-toolbox {
-    overflow: visible;
+  overflow: visible;
 }
-
 
 /**********************************/
 /**       Disappearing Bar       **/
 /**********************************/
 
-/* ⬇ Comment this to disable ⬇ */
+/* ⬇️ Comment this to disable ⬇️ */
 #titlebar {
-    position: relative;
-    top: -100vh !important;
-    transition: ease all 0.5s !important;
-    transition-delay: 0.4s !important;
+  position: relative;
+  top: -100vh !important;
+  transition: ease all 0.5s !important;
+  transition-delay: 0.4s !important;
 }
 
 #navigator-toolbox:hover #titlebar {
-    position: relative !important;
-    top: 0px !important;
-    transition-delay: -5s !important;
+  position: relative !important;
+  top: 0px !important;
+  transition-delay: -5s !important;
 }
 
 #navigator-toolbox:focus-within #titlebar {
-    position: relative !important;
-    transition: none !important;
-    top: 0px !important;
+  position: relative !important;
+  transition: none !important;
+  top: 0px !important;
 }
 
 #navigator-toolbox {
-    max-height: 0.01vh;
-    transition: ease all 0.5s !important;
-    overflow: hidden;
-    transition-delay: 0s !important;
+  max-height: 0.01vh;
+  transition: ease all 0.5s !important;
+  overflow: hidden;
+  transition-delay: 0s !important;
 }
 
 #navigator-toolbox:hover {
-    max-height: 100vh !important;
+  max-height: 100vh !important;
 }
 
 #navigator-toolbox:focus-within {
-    max-height: 100vh !important;
+  max-height: 100vh !important;
 }
 
 #nav-bar {
-    padding-top: 8px !important;
-    top: -5px !important;
+  padding-top: 8px !important;
+  top: -5px !important;
 }
 
 #urlbar-container {
-    top: 5px !important;
+  top: 5px !important;
 }
 
 #urlbar-input-container {
-    top: 0px !important;
+  top: 0px !important;
 }
 
 #urlbar[breakout-extend] {
-    padding-top: 5px !important;
-    top: -5px !important
+  padding-top: 5px !important;
+  top: -5px !important;
 }
 
 *|*:root[sizemode="normal"] #navigator-toolbox {
-    max-height: 100vh;
-    overflow: visible;
-    transition: none;
+  max-height: 100vh;
+  overflow: visible;
+  transition: none;
 }
 
 *|*:root[sizemode="normal"] #titlebar {
-    position: relative;
-    top: 0vh !important;
-    transition: none;
+  position: relative;
+  top: 0vh !important;
+  transition: none;
 }
-
 
 /**********************************/
 /**          Bottom Bar          **/
 /**********************************/
 /*        Arty2/userstyles        */
 
-/* ⬇ Comment this to disable ⬇ */
+/* ⬇️ Comment this to disable ⬇️ */
 #browser {
     -moz-box-ordinal-group: 0 !important;
     order: 0 !important;
@@ -158,4 +156,269 @@
 #navigator-toolbox:focus-within #titlebar {
     position: relative !important;
     top: 0vh !important;
+}
+
+#unified-extensions-button {
+    position: relative;
+    top: 1px !important;
+}
+
+/**********************************/
+/**        Theme: Arcadia        **/
+/**********************************/
+/*       tyrohellion/arcadia      */
+/*    https://feathericons.com/   */
+
+/* ⬇️ Comment this to disable ⬇️ */
+:root {
+  --sfwindow: #19171a;
+  --sfsecondary: #201e21;
+}
+
+#nav-bar {
+  padding-top: 7px !important;
+  top: -2px !important;
+}
+
+.tabbrowser-tab[selected="true"] .tab-background {
+  background: #201e21 none !important;
+}
+
+#tabbrowser-tabs:not([movingtab])
+  > #tabbrowser-arrowscrollbox
+  > .tabbrowser-tab
+  > .tab-stack
+  > .tab-background[multiselected="true"],
+#tabbrowser-tabs:not([movingtab])
+  > #tabbrowser-arrowscrollbox
+  > .tabbrowser-tab
+  > .tab-stack
+  > .tab-background[selected="true"] {
+  background-image: none !important;
+  background-color: var(--toolbar-bgcolor) !important;
+}
+
+#navigator-toolbox {
+  background-color: var(--sfwindow) !important;
+}
+
+:root {
+  --toolbar-bgcolor: var(--sfsecondary) !important;
+  --tabs-border-color: var(--sfsecondary) !important;
+  --lwt-sidebar-background-color: var(--sfwindow) !important;
+  --lwt-toolbar-field-focus: var(--sfsecondary) !important;
+}
+
+#sidebar-box,
+.sidebar-placesTree {
+  background-color: var(--sfwindow) !important;
+}
+
+.tab-close-button {
+  opacity: 0;
+  border-radius: 5px !important;
+}
+
+.tab-throbber {
+  display: none !important;
+}
+
+.tabbrowser-tab:not([pinned]):hover .tab-close-button {
+  opacity: 100 !important;
+}
+
+.tabbrowser-tab[image^="chrome:"] .tab-loading-burst {
+  display: none;
+}
+
+.tabbrowser-tab .tab-icon-image {
+  display: none !important;
+}
+
+.tab-icon-overlay {
+  display: none !important;
+}
+
+#nav-bar:not([tabs-hidden="true"]) {
+  box-shadow: none;
+}
+
+#tabbrowser-tabs[haspinnedtabs]:not([positionpinnedtabs])
+  > #tabbrowser-arrowscrollbox
+  > .tabbrowser-tab[first-visible-unpinned-tab] {
+  margin-inline-start: 0 !important;
+}
+
+:root {
+  --toolbarbutton-border-radius: 5px !important;
+  --toolbar-field-focus-border-color: transparent !important;
+  --tab-border-radius: 0 !important;
+  --tab-block-margin: 0 !important;
+}
+
+.tab-background {
+  border-right: 0px solid rgba(0, 0, 0, 0) !important;
+  margin-left: -4px !important;
+}
+
+.tabbrowser-tab:is([visuallyselected="true"], [multiselected])
+  > .tab-stack
+  > .tab-background {
+  box-shadow: none !important;
+}
+
+.tabbrowser-tab[last-visible-tab="true"] {
+  padding-inline-end: 0 !important;
+}
+
+#tabs-newtab-button {
+  padding-left: 0 !important;
+}
+
+#tabbrowser-tabs:not([overflow="true"]) ~ #alltabs-button {
+  display: none !important;
+}
+
+.titlebar-spacer {
+  display: none;
+}
+
+#image.autoplay-media-icon,
+#context_bookmarkTab,
+#context_moveTabOptions,
+#context_sendTabToDevice,
+#context_reopenInContainer,
+#context_selectAllTabs,
+#context_closeTabOptions {
+  display: none !important;
+}
+
+#urlbar-input::selection {
+  background-color: #312d31 !important;
+}
+
+#blocked-permissions-container {
+  display: none !important;
+}
+
+.notification-anchor-icon {
+  display: none !important;
+}
+
+.blocked-permission-icon {
+  display: none !important;
+}
+
+.urlbarView-row[selected] .urlbarView-row-inner,
+.urlbarView-row:hover .urlbarView-row-inner {
+  background-color: #312d31 !important;
+}
+
+#urlbar[breakout][breakout-extend][open] > #urlbar-input-container {
+  border-radius: var(--toolbarbutton-border-radius)
+    var(--toolbarbutton-border-radius) 0 0 !important;
+  background-color: #201e21 !important;
+}
+
+#urlbar-background,
+.urlbarView-results[wrap] > .urlbarView-row,
+.search-one-offs {
+  background-color: #201e21 !important;
+  border: none !important;
+}
+
+.urlbarView-row:hover > .urlbarView-row-inner {
+  background-color: #19171a !important;
+}
+
+#urlbar-input-container {
+  background-color: var(--sfsecondary) !important;
+  border: 1px solid rgba(0, 0, 0, 0) !important;
+}
+
+#urlbar-container {
+  border: none !important;
+  margin-left: 0 !important;
+}
+
+#urlbar[focused="true"] > #urlbar-background {
+  box-shadow: none !important;
+}
+
+#navigator-toolbox {
+  border: none !important;
+}
+
+.urlbarView-row[label="Firefox Suggest"]::before {
+  display: none !important;
+}
+.urlbarView-row[label="Firefox Suggest"] {
+  margin-top: 0 !important;
+}
+
+#urlbar .search-one-offs {
+  display: none !important;
+}
+
+.urlbarView-row:is([type="switchtab"], [type="remotetab"])
+  > .urlbarView-row-inner
+  > .urlbarView-no-wrap
+  > .urlbarView-action {
+  display: none !important;
+}
+
+.bookmark-item .toolbarbutton-icon {
+  display: none;
+}
+toolbarbutton.bookmark-item:not(.subviewbutton) {
+  min-width: 1.6em;
+}
+
+#urlbar-zoom-button,
+#star-button-box,
+#pageActionSeparator,
+#tabs-newtab-button,
+.tab-secondary-label {
+  display: none !important;
+}
+
+.urlbarView-url {
+  color: #dedede !important;
+}
+
+#reload-button {
+  list-style-image: url(./refresh-ccw.svg) !important;
+  fill: white !important;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(190deg)
+    brightness(104%) contrast(102%);
+}
+
+#identity-box[pageproxystate="valid"].verifiedDomain #identity-icon,
+#identity-box[pageproxystate="valid"].mixedActiveBlocked #identity-icon {
+  list-style-image: url(./lock.svg) !important;
+  fill: white !important;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(190deg)
+    brightness(104%) contrast(102%);
+}
+
+#tabs-newtab-button,
+#TabsToolbar #new-tab-button {
+  list-style-image: url(./plus.svg) !important;
+  fill: white !important;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(190deg)
+    brightness(104%) contrast(102%);
+}
+
+#alltabs-button {
+  list-style-image: url(./chevron-down.svg) !important;
+  fill: white !important;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(190deg)
+    brightness(104%) contrast(102%);
+}
+
+#permissions-granted-icon {
+  list-style-image: url(./hexagon.svg) !important;
+  fill: white !important;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(190deg)
+    brightness(104%) contrast(102%) !important;
 }
