@@ -19,7 +19,7 @@ To select the components or themes you want, simply add or remove their respecti
 
 ## 🎒 Pre-requisites
 
-All components and themes are designed for Firefox with Compact mode enabled. To do this, follow the steps below.
+All components and themes are designed for Firefox with Compact mode enabled.
 
 1. Visit the `about:config` page;  
 1.1 Search for and set `browser.compactmode.show` to <font color=green>true</font>.  
