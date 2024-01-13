@@ -112,9 +112,10 @@
     transition: none;
 }
 
-*|*:root[sizemode="normal"] .titlebar-buttonbox-container {
-    max-height: 100vh;
-    transition: none !important;
+*|*:root[sizemode="normal"] #titlebar {
+    position: relative;
+    top: 0vh !important;
+    transition: none;
 }
 
 
@@ -144,25 +145,6 @@
 
 *|*:root[sizemode="maximized"] #navigator-toolbox {
     border-top: 0.01vh solid transparent !important;
-}
-
-#navigator-toolbox .titlebar-buttonbox-container {
-    position: relative;
-    top: 0px !important;
-    transition: none;
-    transition-delay: none;
-}
-
-#navigator-toolbox:hover .titlebar-buttonbox-container {
-    top: 0px !important;
-    animation: none;
-    transition-delay: none;
-}
-
-#navigator-toolbox:focus-within .titlebar-buttonbox-container {
-    top: 0px !important;
-    animation: none;
-    transition-delay: none;
 }
 
 #titlebar {
