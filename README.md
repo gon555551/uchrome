@@ -1,15 +1,21 @@
-# 🔥uchrome: Firefox One-line+🦊
+# 🔥uchrome: Modular Firefox Customization🦊
 
-All of Firefox in a single line.
+Modular approach to Firefox CSS.
 
-| One-line | Disappearing bar | Bottom bar |
-| - | - | - |
-| ![What it looks like (using Mercury)](https://i.postimg.cc/wMFN16fT/image.png) | ![With the bar disabled](https://i.postimg.cc/G3DDJtvT/image.png) | ![With the bar on the bottom](https://i.postimg.cc/Bv6J3JDB/image.png) |
+
+## 📦Components
+- ***Disappearing Bar***.  
+- ***One-line Firefox***, based on [One-line Firefox](https://github.com/khuedoan/one-line-firefox).  
+- ***Bottom bar***, partly adapted from [Arty2's *tabs_to_bottom*](https://github.com/Arty2/userstyles/blob/master/tabs_to_bottom.userchrome.css).
+
+
+## 🖌️Themes
+- ***arcadia***, adapted from [arcadia](https://github.com/tyrohellion/arcadia).
 
 
 ## 🎒 Pre-requisites
 
-This [userChrome.css](https://github.com/ilovebmo/uchrome/blob/master/userChrome.css) file is designed for Firefox with Compact mode enabled. To do this, follow the steps below.
+All components and themes are designed for Firefox with Compact mode enabled. To do this, follow the steps below.
 
 1. Visit the `about:config` page;  
 1.1 Search for and set `browser.compactmode.show` to <font color=green>true</font>.  
@@ -29,9 +35,3 @@ The path to your Firefox profile is available at `about:profiles`.
 cd "path/to/firefox/profile"
 git clone https://github.com/gon555551/uchrome chrome
 ```
-
-
-***
-> Based on [One-line Firefox](https://github.com/khuedoan/one-line-firefox) by [khuedoan](https://github.com/khuedoan).  
-> Themed adapted from [arcadia](https://github.com/tyrohellion/arcadia) by [tyrohellion](https://github.com/tyrohellion).  
-> Bottom bar partly adapted from [Arty2's *tabs_to_bottom* userstyles](https://github.com/Arty2/userstyles/blob/master/tabs_to_bottom.userchrome.css).  

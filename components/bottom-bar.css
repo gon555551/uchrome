@@ -1,0 +1,51 @@
+/**********************************/
+/**          Bottom Bar          **/
+/**********************************/
+/*        Arty2/userstyles        */
+
+#browser {
+  -moz-box-ordinal-group: 0 !important;
+  order: 0 !important;
+}
+
+#navigator-toolbox,
+#navigator-toolbox-background {
+  -moz-box-ordinal-group: 1 !important;
+  order: 1 !important;
+}
+
+#urlbar[open] {
+  flex-direction: column-reverse;
+  display: flex !important;
+  bottom: -2px !important;
+  top: auto !important;
+}
+
+*|*:root[sizemode="maximized"] #navigator-toolbox {
+  border-top: 0.01vh solid transparent !important;
+}
+
+#titlebar {
+  position: relative;
+  top: 100vh !important;
+}
+
+#navigator-toolbox:hover #titlebar {
+  position: relative !important;
+  top: 0vh !important;
+}
+
+#navigator-toolbox:focus-within #titlebar {
+  position: relative !important;
+  top: 0vh !important;
+}
+
+#unified-extensions-button {
+  position: relative;
+  top: 1px !important;
+}
+
+#nav-bar {
+  padding-top: 7px !important;
+  top: -2px !important;
+}

@@ -1,0 +1,67 @@
+/**********************************/
+/**       Disappearing Bar       **/
+/**********************************/
+
+#titlebar {
+  position: relative;
+  top: -100vh !important;
+  transition: ease all 0.5s !important;
+  transition-delay: 0.4s !important;
+}
+
+#navigator-toolbox:hover #titlebar {
+  position: relative !important;
+  top: 0px !important;
+  transition-delay: -5s !important;
+}
+
+#navigator-toolbox:focus-within #titlebar {
+  position: relative !important;
+  transition: none !important;
+  top: 0px !important;
+}
+
+#navigator-toolbox {
+  max-height: 0.01vh;
+  transition: ease all 0.5s !important;
+  overflow: hidden;
+  transition-delay: 0s !important;
+}
+
+#navigator-toolbox:hover {
+  max-height: 100vh !important;
+}
+
+#navigator-toolbox:focus-within {
+  max-height: 100vh !important;
+}
+
+#nav-bar {
+  padding-top: 8px !important;
+  top: -5px !important;
+}
+
+#urlbar-container {
+  top: 5px !important;
+}
+
+#urlbar-input-container {
+  top: 0px !important;
+}
+
+#urlbar[breakout-extend] {
+  padding-top: 5px !important;
+  top: -5px !important;
+}
+
+*|*:root[sizemode="normal"] #navigator-toolbox {
+  max-height: 100vh;
+  overflow: visible;
+  transition: none;
+}
+
+*|*:root[sizemode="normal"] #titlebar {
+  position: relative;
+  top: 0vh !important;
+  transition: none;
+}
