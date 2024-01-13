@@ -51,7 +51,7 @@
 /**       Disappearing Bar       **/
 /**********************************/
 
-/* ⬇️ Comment this to disable ⬇️ */
+/* ⬇ Comment this to disable ⬇ */
 #titlebar {
     position: relative;
     top: -100vh !important;
@@ -122,7 +122,7 @@
 /**********************************/
 /*        Arty2/userstyles        */
 
-/* ⬇️ Comment this to disable ⬇️ */
+/* ⬇ Comment this to disable ⬇ */
 #browser {
     -moz-box-ordinal-group: 0 !important;
     order: 0 !important;
