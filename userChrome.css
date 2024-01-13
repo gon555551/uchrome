@@ -125,6 +125,11 @@
     transition: none;
 }
 
+*|*:root[sizemode="normal"] .titlebar-buttonbox-container {
+    max-height: 100vh;
+    transition: none !important;
+}
+
 
 /**********************************/
 /**          Bottom Bar          **/
