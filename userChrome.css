@@ -122,45 +122,45 @@
 
 /* ⬇️ Comment this to disable ⬇️ */
 #browser {
-    -moz-box-ordinal-group: 0 !important;
-    order: 0 !important;
+  -moz-box-ordinal-group: 0 !important;
+  order: 0 !important;
 }
 
 #navigator-toolbox,
 #navigator-toolbox-background {
-    -moz-box-ordinal-group: 1 !important;
-    order: 1 !important;
+  -moz-box-ordinal-group: 1 !important;
+  order: 1 !important;
 }
 
-#urlbar[open]{
-    flex-direction: column-reverse;
-    display: flex !important;
-    bottom: -2px !important;
-    top: auto !important;
-} 
+#urlbar[open] {
+  flex-direction: column-reverse;
+  display: flex !important;
+  bottom: -2px !important;
+  top: auto !important;
+}
 
 *|*:root[sizemode="maximized"] #navigator-toolbox {
-    border-top: 0.01vh solid transparent !important;
+  border-top: 0.01vh solid transparent !important;
 }
 
 #titlebar {
-    position: relative;
-    top: 100vh !important;
+  position: relative;
+  top: 100vh !important;
 }
 
 #navigator-toolbox:hover #titlebar {
-    position: relative !important;
-    top: 0vh !important;
+  position: relative !important;
+  top: 0vh !important;
 }
 
 #navigator-toolbox:focus-within #titlebar {
-    position: relative !important;
-    top: 0vh !important;
+  position: relative !important;
+  top: 0vh !important;
 }
 
 #unified-extensions-button {
-    position: relative;
-    top: 1px !important;
+  position: relative;
+  top: 1px !important;
 }
 
 /**********************************/
@@ -380,6 +380,6 @@
 #tabs-newtab-button,
 #TabsToolbar #new-tab-button {
   list-style-image: url(./plus.svg) !important;
-  filter: sepia(0%) saturate(0%) hue-rotate(190deg)
-    brightness(100%) contrast(150%);
+  filter: sepia(0%) saturate(0%) hue-rotate(190deg) brightness(100%)
+    contrast(150%);
 }
