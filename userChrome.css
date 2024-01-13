@@ -275,14 +275,6 @@
   padding-left: 0 !important;
 }
 
-#tabbrowser-tabs:not([overflow="true"]) ~ #alltabs-button {
-  display: none !important;
-}
-
-.titlebar-spacer {
-  display: none;
-}
-
 #image.autoplay-media-icon,
 #context_bookmarkTab,
 #context_moveTabOptions,
@@ -370,14 +362,13 @@
 .bookmark-item .toolbarbutton-icon {
   display: none;
 }
-toolbarbutton.bookmark-item:not(.subviewbutton) {
+#toolbarbutton .bookmark-item:not(.subviewbutton) {
   min-width: 1.6em;
 }
 
 #urlbar-zoom-button,
 #star-button-box,
 #pageActionSeparator,
-#tabs-newtab-button,
 .tab-secondary-label {
   display: none !important;
 }
@@ -386,39 +377,9 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
   color: #dedede !important;
 }
 
-#reload-button {
-  list-style-image: url(./refresh-ccw.svg) !important;
-  fill: white !important;
-  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(190deg)
-    brightness(104%) contrast(102%);
-}
-
-#identity-box[pageproxystate="valid"].verifiedDomain #identity-icon,
-#identity-box[pageproxystate="valid"].mixedActiveBlocked #identity-icon {
-  list-style-image: url(./lock.svg) !important;
-  fill: white !important;
-  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(190deg)
-    brightness(104%) contrast(102%);
-}
-
 #tabs-newtab-button,
 #TabsToolbar #new-tab-button {
   list-style-image: url(./plus.svg) !important;
-  fill: white !important;
-  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(190deg)
-    brightness(104%) contrast(102%);
-}
-
-#alltabs-button {
-  list-style-image: url(./chevron-down.svg) !important;
-  fill: white !important;
-  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(190deg)
-    brightness(104%) contrast(102%);
-}
-
-#permissions-granted-icon {
-  list-style-image: url(./hexagon.svg) !important;
-  fill: white !important;
-  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(190deg)
-    brightness(104%) contrast(102%) !important;
+  filter: sepia(0%) saturate(0%) hue-rotate(190deg)
+    brightness(100%) contrast(150%);
 }
