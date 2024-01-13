@@ -33,5 +33,5 @@ git clone https://github.com/gon555551/uchrome chrome
 
 ***
 > Based on [One-line Firefox](https://github.com/khuedoan/one-line-firefox) by [khuedoan](https://github.com/khuedoan).  
-> Themed adapted from [arcadia](https://github.com/tyrohellion/arcadia) by [tyrohellion](https://github.com/tyrohellion).
+> Themed adapted from [arcadia](https://github.com/tyrohellion/arcadia) by [tyrohellion](https://github.com/tyrohellion).  
 > Bottom bar partly adapted from [Arty2's *tabs_to_bottom* userstyles](https://github.com/Arty2/userstyles/blob/master/tabs_to_bottom.userchrome.css).  
