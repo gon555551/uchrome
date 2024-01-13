@@ -1,4 +1,7 @@
 /* Components BEFORE Themes
+/*
+/* Comment out or remove the components or themes you don't want
+/*
 
 /* Components */
 @import url("components/one-line.css");
