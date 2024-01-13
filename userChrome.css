@@ -1,7 +1,9 @@
-/* Theme imports */
-@import url("components/themes/arcadia/arcadia.css");
+/* Components BEFORE Themes
 
 /* Component imports */
 @import url("components/one-line.css");
 @import url("components/disappearing.css");
 @import url("components/bottom-bar.css");
+
+/* Theme imports */
+@import url("components/themes/arcadia/arcadia.css");
