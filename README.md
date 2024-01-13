@@ -2,6 +2,10 @@
 
 Modular approach to Firefox CSS.
 
+This repo contains components and themes that are then imported into the **userChrome.css** file. There should *NEVER* be a need to edit any file other than **userChrome.css**.
+
+To select the components or themes you want, simply add or remove their respective `@import` from the **userChrome.css** file.
+
 
 ## 📦Components
 - ***Disappearing Bar***.  
