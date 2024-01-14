@@ -6,6 +6,8 @@ This repo contains components and themes that are imported into the **userChrome
 
 To select the components or themes you want, simply add or remove their respective `@import` from the **userChrome.css** file.
 
+⚠️ **_uchrome_** does **NOT** come with defaults. Edit the **userChrome.css** file before use. ⚠️
+
 ## 📦 Components
 
 - **_Disappearing Bar_**.
