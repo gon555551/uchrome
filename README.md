@@ -2,17 +2,17 @@
 
 Modular approach to Firefox CSS.
 
-This repo contains components and themes, as well as a userContent.css file, that are then imported into the **userChrome.css** file. There should _NEVER_ be a need to edit any file other than **userChrome.css**.
+This repo contains components and themes that are imported into the **userChrome.css** file, as well as a userContent.css file. There should never be a need to edit any file other than **userChrome.css**, but of course you can tweak any file to your liking! I don't take responsibility if anything breaks though~
 
 To select the components or themes you want, simply add or remove their respective `@import` from the **userChrome.css** file.
 
-## 📦Components
+## 📦 Components
 
 - **_Disappearing Bar_**.
 - **_One-line Firefox_**, based on [One-line Firefox](https://github.com/khuedoan/one-line-firefox).
 - **_Bottom bar_**, partly adapted from [Arty2's _tabs_to_bottom_](https://github.com/Arty2/userstyles/blob/master/tabs_to_bottom.userchrome.css).
 
-## 🖌️Themes
+## 🖌️ Themes
 
 - **_arcadia_**, adapted from [arcadia](https://github.com/tyrohellion/arcadia).
 
