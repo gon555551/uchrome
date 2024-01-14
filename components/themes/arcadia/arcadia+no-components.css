@@ -1,0 +1,6 @@
+@import url("arcadia.css");
+
+#nav-bar {
+  padding-top: 0px !important;
+  top: 0px !important;
+}

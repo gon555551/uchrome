@@ -16,7 +16,7 @@ To select the components or themes you want, simply add or remove their respecti
 
 ## 🖌️ Themes
 
-- **_arcadia_**, adapted from [arcadia](https://github.com/tyrohellion/arcadia).  
+- **_arcadia_**, adapted from [arcadia](https://github.com/tyrohellion/arcadia).
 - **_Firefox-ONE_**, adapted from [Firefox-ONE](https://github.com/Godiesc/firefox-one).
 
 ## 🎒 Pre-requisites
@@ -45,9 +45,12 @@ git clone https://github.com/gon555551/uchrome chrome
 ## 👹 Limitations
 
 There's no guarantee that components or themes won't clash with each other.
-- Themes are larger projects so it's best to leave them last in the **userChrome.css** file to improve compatibility.
 
-Themes may require specific files other than **userChrome.css** to be edited, certain extensions to be installed, or certain settings to be turned on or off. 
-- I try to go around this, but sometimes it's not possible. **_Always check the official repo for the themes to see their specific requirements_**.  
+- Themes are larger projects so it's best to leave them last in the **userChrome.css** file to improve compatibility.
+- Additionally, I provide some compatibility files for certain components.
+
+Themes may require specific files other than **userChrome.css** to be edited, certain extensions to be installed, or certain settings to be turned on or off.
+
+- I try to go around this, but sometimes it's not possible. **_Always check the official repo for the themes to see their specific requirements_**.
 
 These components and themes may not work for all versions of Firefox.

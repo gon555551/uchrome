@@ -1,0 +1,9 @@
+@import url("firefox-one.css");
+@import url("../../bottom-bar.css");
+
+#urlbar[open] {
+  flex-direction: column-reverse;
+  display: flex !important;
+  bottom: -2px !important;
+  top: auto !important;
+}

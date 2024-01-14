@@ -1,12 +1,19 @@
 /* Components BEFORE Themes
-/*
-/* Comment out or remove the components or themes you don't want
+
+/* Comment/Uncomment to you liking!
 
 /* Components */
 @import url("components/one-line.css");
 @import url("components/disappearing.css");
-@import url("components/bottom-bar.css");
+/* @import url("components/bottom-bar.css"); */
 
 /* Themes */
+/* arcadia */
 @import url("components/themes/arcadia/arcadia.css");
-@import url("components/themes/firefox-one/firefox-one.css");
+/* @import url("components/themes/arcadia/arcadia+no-components.css"); */
+
+/* firefox-one */
+/* @import url("components/themes/firefox-one/firefox-one.css");
+@import url("components/themes/firefox-one/firefox-one+one-line.css");
+@import url("components/themes/firefox-one/firefox-one+disappearing.css");
+@import url("components/themes/firefox-one/firefox-one+bottom-bar.css"); */

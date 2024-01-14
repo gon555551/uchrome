@@ -1,0 +1,20 @@
+@import url("firefox-one.css");
+@import url("../../disappearing.css");
+
+#urlbar {
+  top: -6px !important;
+}
+
+#urlbar[breakout-extend] {
+  top: -15px !important;
+}
+
+#nav-bar {
+  top: 0px !important;
+  padding-bottom: 8px !important;
+}
+
+#TabsToolbar {
+  position: relative;
+  top: 4px !important;
+}

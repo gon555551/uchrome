@@ -1,0 +1,10 @@
+@import url("firefox-one.css");
+@import url("../../one-line.css");
+
+#urlbar {
+  width: 24.5vw !important;
+}
+
+#TabsToolbar {
+  margin-left: 40vw !important;
+}
