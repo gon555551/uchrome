@@ -9,8 +9,8 @@
 
 /* Themes */
 /* arcadia */
-@import url("components/themes/arcadia/arcadia.css");
 /* @import url("components/themes/arcadia/arcadia+no-components.css"); */
+@import url("components/themes/arcadia/arcadia+components.css");
 
 /* firefox-one */
 /* @import url("components/themes/firefox-one/firefox-one.css");
