@@ -47,7 +47,7 @@ There's no guarantee that components or themes won't clash with each other.
 - Themes are larger projects so it's best to leave them last in the **userChrome.css** file to improve compatibility.
 - Additionally, I provide some compatibility files for certain components.
 
-Themes may require specific files other than **userChrome.css** to be edited, certain extensions to be installed, or certain settings to be turned on or off.
+Themes may require specific files other than **userChrome.css** to be edited, certain extensions to be installed, or certain settings and features to be turned on or off or modified in-browser.
 
 - I try to go around this, but sometimes it's not possible. **_Always check the official repo for the themes to see their specific requirements_**.
 
