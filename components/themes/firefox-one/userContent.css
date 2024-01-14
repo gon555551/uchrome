@@ -1,0 +1,9 @@
+/**********************************/
+/**      Theme: Firefox One      **/
+/**********************************/
+/*       Godiesc/firefox-one      */
+
+@import url(components/one_root-personal.css);
+@import url(components/one_UC-newtabpage.css);
+@import url(components/one_UC-settings-addons-pages.css);
+@import url(components/one_UC-addons-store.css);
