@@ -37,7 +37,7 @@ The path to your Firefox profile is available at `about:profiles`.
 
 ```shell
 cd "path/to/firefox/profile"
-git clone https://github.com/gon555551/uchrome chrome
+git clone https://github.com/ilovebmo/uchrome chrome
 ```
 
 ## 👹 Limitations
